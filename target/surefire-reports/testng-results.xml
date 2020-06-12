@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-12T17:30:17 MSK" name="hw2.CalculatorTest" finished-at="2020-06-12T17:30:17 MSK" duration-ms="27">
+    <groups>
+    </groups>
+    <test started-at="2020-06-12T17:30:17 MSK" name="Command line test" finished-at="2020-06-12T17:30:17 MSK" duration-ms="27">
+      <class name="hw2.CalculatorTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:hw2.CalculatorTest@6ec8211c]" started-at="2020-06-12T17:30:17 MSK" name="beforeTest" finished-at="2020-06-12T17:30:17 MSK" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testGetDifference()[pri:0, instance:hw2.CalculatorTest@6ec8211c]" started-at="2020-06-12T17:30:17 MSK" name="testGetDifference" finished-at="2020-06-12T17:30:17 MSK" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDifference -->
+        <test-method signature="testGetQuotient()[pri:0, instance:hw2.CalculatorTest@6ec8211c]" started-at="2020-06-12T17:30:17 MSK" name="testGetQuotient" finished-at="2020-06-12T17:30:17 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetQuotient -->
+        <test-method signature="testGetSquare()[pri:0, instance:hw2.CalculatorTest@6ec8211c]" started-at="2020-06-12T17:30:17 MSK" name="testGetSquare" finished-at="2020-06-12T17:30:17 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSquare -->
+        <test-method signature="testGetProduct()[pri:0, instance:hw2.CalculatorTest@6ec8211c]" started-at="2020-06-12T17:30:17 MSK" name="testGetProduct" finished-at="2020-06-12T17:30:17 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProduct -->
+        <test-method signature="testGetSum()[pri:0, instance:hw2.CalculatorTest@6ec8211c]" started-at="2020-06-12T17:30:17 MSK" name="testGetSum" finished-at="2020-06-12T17:30:17 MSK" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSum -->
+      </class> <!-- hw2.CalculatorTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- hw2.CalculatorTest -->
+</testng-results>
