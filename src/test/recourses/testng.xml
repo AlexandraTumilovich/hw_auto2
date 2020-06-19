@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Calculator">
-<!--        <listeners>-->
-<!--            <listener class-name="org.uncommons.reportng.HTMLReporter" />-->
-<!--            <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />-->
-<!--        </listeners>-->
-    <test name="Calculator">
+        <listeners>
+            <listener class-name="org.uncommons.reportng.HTMLReporter" />
+            <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+            <listener class-name="hw3.listener.TestListener"/>
+        </listeners>
+    <test name="OZ">
         <classes>
-            <class name="hw2.CalculatorTest"/>
+            <class name="hw3.oz.OZTest"/>
         </classes>
     </test>
+    <test name="Test listener">
+        <classes>
+            <class name="hw3.listener.MyTest"/>
+        </classes>
+    </test>
+
 </suite>
